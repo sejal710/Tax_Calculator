@@ -19,7 +19,11 @@ To start the development server, run the following command:
    npm run dev
 
 #### Accessing the Application
-Once the development server is running, you can access the application by navigating to http://localhost:5173/ in your web browser.  
+Once the development server is running, you can access the application by navigating to http://localhost:5173/ in your web browser.
+- HOUSE RENT ALLOWANCE
+![Web capture_21-6-2023_202525_tax-xi vercel app](https://github.com/sejal710/Tax_Calculator/assets/108399174/07e2e0c5-932d-49e5-928f-349d4219d37b)
+- ADVANCE TAX CALCULATOR FOR FINANCIAL YEAR 2023-24
+![Web capture_21-6-2023_202546_tax-xi vercel app](https://github.com/sejal710/Tax_Calculator/assets/108399174/58521e4f-7046-4e0a-a922-a52133e6a139)
    
 ### Contact
 
