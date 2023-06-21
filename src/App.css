@@ -13,6 +13,6 @@ body{
   width: 100%;
 }
 a:hover{
-  text-decoration: none; /* Optional: Removes underline on hover */
+  text-decoration: none; 
   color: inherit;
 }

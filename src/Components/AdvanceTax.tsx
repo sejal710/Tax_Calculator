@@ -48,6 +48,14 @@ const AdvanceTax = () => {
 
   return (
     <div className="advanceTax" id='advance'>
+      <Box className='ad_h1'>
+      <Text>(As amended upto Finance Act, 2023)</Text>
+      </Box> 
+      <Box className='ad_heading'>
+        <h4>
+            Advance Tax Calculator for Financial Year 2023-24
+        </h4>
+      </Box>
     <Box className='advanceTax_div bg'>
       <Text className='text'>Tax Payer</Text>
       <Select  placeholder='Select' w='200px' border='1px solid #ccc' onChange={(e) => setTax(e.target.value)} bg='#fff'>

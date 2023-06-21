@@ -26,6 +26,14 @@ const Hometax = () => {
 
   return (
     <Box className="advanceTax">
+     <Box className='ad_h1'>
+      <Text>(As amended upto Finance Act, 2023)</Text>
+      </Box> 
+     <Box className='ad_heading'>
+      <h4>
+      HOUSE RENT ALLOWANCE
+      </h4>
+    </Box>
     <Box className='advanceTax_div bg'>
     <Text className='text'>Basic salary</Text>
     <Input type='number' bg='#fff'value={sum1 == 0 ? "" : sum1} onChange={(e) => setSum1(parseFloat(e.target.value))}/>
