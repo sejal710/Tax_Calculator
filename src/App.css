@@ -1,0 +1,18 @@
+
+
+body{
+  font-family: Arial,Helvetica,sans- serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app{
+  min-width: 98vw;
+}
+.data{
+  width: 100%;
+}
+a:hover{
+  text-decoration: none; /* Optional: Removes underline on hover */
+  color: inherit;
+}
