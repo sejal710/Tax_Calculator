@@ -1,6 +1,6 @@
 
 import '../css/Navbar.css'
-import { Heading,Box } from '@chakra-ui/react'
+// import { Heading,Box } from '@chakra-ui/react'
 
 const Navbar= () => {
   return (
@@ -56,16 +56,6 @@ const Navbar= () => {
       <div className='logo'>
         <img src="https://incometaxindia.gov.in/PublishingImages/income-tax-logo.png?v=612" alt="" />
       </div>
-
-      {/* Last div */}
-      <Box className="last" display="flex" border={'1px solid #ccc'}>
-      <Box as="div" _hover={{ color: 'blue.500',bg:"#fff" }} w='100%' textAlign={'center'} 
-      bg={"#ccc"} cursor={'pointer'} p={"5px 0px 5px 0px"}
-      >
-      <Heading as="h4"  fontWeight="bold">Home Calculator</Heading>
-    </Box>
-  </Box>
-
     </div>
   )
 }
