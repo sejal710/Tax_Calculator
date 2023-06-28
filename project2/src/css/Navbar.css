@@ -1,0 +1,99 @@
+.navbar{
+    width: 100%;
+    overflow: hidden;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+a:hover{
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+/* Top line Navbar css  */
+.navbar_t{
+    background: #0561c8;
+    overflow: hidden;
+    padding: 5px 10px;
+    color: #fff;
+    width: 100%;
+}
+.navbar_top{
+    margin-left: 20px;
+    margin-bottom: 2px;
+    float: right;
+    display: flex;
+}
+.navbar_top_right{
+    border-right: 1px solid #ccc;
+    margin-right: 3px !important;
+    padding-right: 10px;
+    height: 20px;
+    display: flex;
+}
+.navbar_top_ul{
+    display: flex;
+    font-size: 13px;
+    align-items: center;
+    list-style-type: none;
+    margin-top: 0;
+    background: url('https://incometaxindia.gov.in/_Layouts/15/images/dit/stripdesignbg.png') no-repeat center center;
+}
+.navbar_top_ul > li{
+    display: flex;
+    align-items: center;
+}
+.navbar_social_icon{
+    color: #fffc00;
+    font-size: 17px;
+    margin-right: 5px;
+}
+.navbar_top_strip{
+    display: flex;
+    font-size: 13px;
+    color: #fff;
+    margin-bottom: 0;
+    align-items: center;
+    list-style-type: none;
+}
+.navbar_top_strip>li{
+    border-right: 1px solid #ccc;
+    padding: 2px 4px;
+}
+.navbar_top_strip>li>a{
+    display: flex;
+    gap: 2px;
+}
+.navbar_top_strip_icon{
+    max-width: 20px;
+}
+.navbar_top_strip_icon img{
+    width: 20px;
+    height: 20px;
+}
+.navbar_top_strip_update{
+    color: #fffc00;
+    font-size: 17px;
+}
+
+/* Logo css */
+
+.logo{
+    width: 346px;
+    height: 100px;
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 100%;
+    height: 70%;
+}
+
+/* last */
+
+.last{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

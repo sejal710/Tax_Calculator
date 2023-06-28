@@ -1,13 +1,8 @@
-import React from 'react'
+
 import '../css/Navbar.css'
 import { Heading,Box } from '@chakra-ui/react'
 
-interface NavabarProps {
-  setOpen : (value:boolean) => void;
-  open:Boolean;
-}
-
-const Navbar:React.FC<NavabarProps> = ({setOpen,open}) => {
+const Navbar= () => {
   return (
     <div className="navbar">
       {/* Top line */}
@@ -64,11 +59,10 @@ const Navbar:React.FC<NavabarProps> = ({setOpen,open}) => {
 
       {/* Last div */}
       <Box className="last" display="flex" border={'1px solid #ccc'}>
-      <Box as="div" _hover={{ color: 'blue.500',bg:"#ccc" }} w='50%' textAlign={'center'} bg={open ? "#ccc":"#fff"} cursor={'pointer'} onClick={() => setOpen(true)}>
-      <Heading  size="40px" fontWeight="bold">Home Calculator</Heading>
-    </Box>
-    <Box as="div" _hover={{ color: 'blue.500' ,bg:"#ccc"}} w='50%' textAlign={'center'} bg={!open ? "#ccc":"#fff"} cursor={'pointer'} onClick={() => setOpen(false)}>
-      <Heading  size="40px" fontWeight="bold" mb={4}>Advance Calculator</Heading>
+      <Box as="div" _hover={{ color: 'blue.500',bg:"#fff" }} w='100%' textAlign={'center'} 
+      bg={"#ccc"} cursor={'pointer'} p={"5px 0px 5px 0px"}
+      >
+      <Heading as="h4"  fontWeight="bold">Home Calculator</Heading>
     </Box>
   </Box>
 

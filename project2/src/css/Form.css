@@ -1,0 +1,77 @@
+
+.advanceTax_div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+    padding: 6px 10px;
+ 
+ }
+ .bg{
+     background-image: linear-gradient(rgb(243, 243, 243), rgb(225, 225, 225))
+ }
+ .advanceTax_div input {
+   width: 200px; 
+   border: 1px solid #ccc;
+   font-size: 14px;
+ }
+ .advanceText_select{
+     width: 200px;
+     border: 1px solid #ccc;
+ }
+ .advanceTax_div input:focus {
+     border-color: #0561c8; 
+     background-color: #fff;
+ }
+ .advanceTax_div div{
+     display: flex;
+     align-items: center;
+     gap: 5px;
+ }
+ .advanceTax_div button{
+     background-color: black;
+     color: #ccc;
+     padding: 3px 5px;
+     font-size: 10px;
+ }
+ .text{
+     font-size: 18px;
+ }
+ .advanceTax_showDetail{
+     background-color: #b4b4b4;
+     margin-top: 3px;
+ }
+ .advanceTax_showDetail>div{
+     display: flex;
+     padding: 10px;
+     gap: 10px;
+ }
+ .advanceTax_showDetail_sum{
+     display: flex;
+     flex-direction: column;
+ }
+ .advanceTax_showDetail_m{
+     display: flex;
+     
+     gap: 20px;
+ }
+ .advanceTax_showDetail_min{
+     display:flex;
+     flex-direction: column;
+     width: 13%;
+     justify-content: space-between;
+     text-align: center;
+ }
+ 
+ .advanceTax_div_input{
+     display: flex;
+     gap: 20px;
+     padding: 10px;
+     align-items: center;
+ }
+ 
+ .tab{
+    font-weight: bold;
+    margin: 10px;
+ }
