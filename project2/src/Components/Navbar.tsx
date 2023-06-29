@@ -55,7 +55,7 @@ const Navbar= () => {
       {/* Ḷogo  */}
       <div className='logo'>
         <img src="https://incometaxindia.gov.in/PublishingImages/income-tax-logo.png?v=612" alt="" />
-      </div>
+      ` </div>
     </div>
   )
 }
