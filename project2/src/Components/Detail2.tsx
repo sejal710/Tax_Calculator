@@ -12,7 +12,9 @@ const Detail2:React.FC<Detail2Props> = ({data}) => {
     const [fourth,setFourth] = useState("")
     const [check1,setCheck1] = useState(0)
     const [check2,setCheck2] = useState(0);
-    data(`${(check1+check2)+(Number(first)+Number(secound)+Number(third)+Number(fourth))}`);
+    const k = (check1+check2)+(Number(first)+Number(secound)+Number(third)+Number(fourth))
+    const num = k <= 125000000 ? k: 1250000;
+    data(`${num}`)
   return (
     <Box className='advanceTax_showDetail'>
     <First sum = {setFirst}/>

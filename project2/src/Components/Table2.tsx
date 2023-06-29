@@ -25,7 +25,7 @@ const Table2: React.FC<Table2Props> = ({table}) => {
         })
       }
       else{
-        const k = Number(data2) <= 1500000 ? Number(data2) : 1500000
+        const k = Number(data2);
         const total = (sum1 + sum2 + Number(data1)) - k;
         table((prevState: { form: object; table1: object; total:number}) => ({
           ...prevState,
