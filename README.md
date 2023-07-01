@@ -27,8 +27,9 @@ Once the development server is running, you can access the application by naviga
 
 ### Deploy
   #### Project 1
-  [Link for Project 1 click me](https://tax-xi.vercel.app/)
-  [Link for Project 2 click me](https://tax-calculator-sable.vercel.app/)
+   - [Link for Project 1 click me](https://tax-xi.vercel.app/)
+  
+   - [Link for Project 2 click me](https://tax-calculator-sable.vercel.app/)
    
 ### Contact
 
